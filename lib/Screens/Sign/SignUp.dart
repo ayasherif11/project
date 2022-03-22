@@ -195,9 +195,12 @@ class _SignUpState extends State<SignUp> {
                                           },
                                         ),
                                         obscureVal: true),
+
                                     SizedBox(
                                       height: h * .01,
                                     ),
+                                    const Text("Enter your phone number"),
+
                                     const PhoneNo(),
                                     // TxtFormField(hintTxt: ,inputType: ,lblText: ,preIcon: ,sufIcon: ,obscureVal: ),
                                     SizedBox(
